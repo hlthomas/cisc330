@@ -1,0 +1,39 @@
+﻿CISC 3300 SP24 
+Homework 1 
+
+
+1. What is HTML? What does it do? 
+Hyper Text Markup language is a set of rules that defines how the layout and presentation of text and images shold appear in a digital document. Its not a programing language, its a document formatting language. Using HTML we can make the structure of a webpage and the elements that user can interact with.
+
+
+2. Access https://www.fordham.edu/. In your own words, describe how this webpage uses structure to convey meaning and navigation options to the user. 
+This webpage uses a navigation bar to provide quick access to key sections. It uses headings and subheadings to organize content how the university wants to. It also uses a search bar and a footer with quick licks that help to make sure users can easily find the information they are looking for.
+
+
+3. What is an HTML element? Tag? Attribute? 
+An HTML element is a collection of start and end tags with the content inserted between them. A tag is like a container, and you use an opening and a closing tag (ex: <p>, </p>). Using tags will transform the content when the html is interpreted. An attribute provides additional information about the contents of an element. Attributes have a name and a value.
+
+
+4. What does it mean when an element has semantic meaning? And structural meaning?
+If an element has a semantic meaning then that element is conveying some sort of information because of its element type. If an element has a structural meaning, then that element affects the actual structure of a page, but doesn't necessarily convey any meaning by its element type. An example is elements bold vs. strong. Strong emphasizes importance which conveys meaning to both sighted and screen readers. Bold is solely for visual presentation.
+
+
+5. What is the default behavior when submitting a HTML form? 
+When a user completes a form they press a button to send it to the server. There will be an action and a method. The action being the url and the method being the http.
+
+
+
+
+6. Create a webpage for a fake business of your choosing. It should have: 
+1.  an h1 element with the title of the business 
+2. a p element with a description of the business 
+3. a subsection with a sub heading and p element describing that section
+4. create an images directory and put a relevant image in the directory, include that image on the webpage via a src attribute with a relative path. 
+5. a contact form which should have: 
+i. a text input element for first name with a label 
+ii. a text input element for last name with a label 
+iii. an email element with a label 
+iv. a submit element with a value of “Submit” 
+
+
+Please create a directory called homework-1 in your local repository, include a .txt file with the answers for questions 1-5 and an .html file for question 6 on submission.
