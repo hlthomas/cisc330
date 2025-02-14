@@ -1,0 +1,19 @@
+﻿CISC 3300 S25 
+Homework 3 
+1. Compare and contrast Flexbox and CSS grid, how are they alike and how are they different? 
+You can use Flexbox vertically or horizontally because it is 1 dimensional. You can use CSS grids both horizontally and vertically because it is 2 dimensional. They are alike because they both make grid layouts.
+
+
+2. What’s responsive design in web development and how do we implement it?
+In web development responsive design makes it so that the page can change sizes according to the screen size showing it. We implement it using grids and flexboxes.
+
+
+3. Create a HTML file with a flex container and three flex items. Give the flex items a color and width/height of 100px. For screens <500px wide have the items flow vertically and >= 500px flow horizontally. 
+
+
+4. Create a form with bootstrap, should have a few input elements, labels, and a submit button. 
+
+
+5. You are the web designer for the Computer Science Department at Fordham. You have been asked to design this mock up for the CS homepage. 
+https://www.fordham.edu/undergraduate-admission/majors-and-minors/computer-scienc e/ 
+a. Try to get as close as possible to the mock up, with colors and the font(Raleway), etc. It does not need to be pixel perfect. The image can be accessed here: https://www.fordham.edu/media/review/content-assets/migrated/images/iStock_0 00021097427Medium.jpg
