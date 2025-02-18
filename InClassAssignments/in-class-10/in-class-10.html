@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+</head>
+<body>
+
+<!-- Clickable div -->
+<div id="clickable-div">initial text</div>
+
+<script>
+    document.getElementById('clickable-div').addEventListener('click', function () {
+        this.innerText = 'added text!';
+        this.style.backgroundColor = 'yellow';
+    });
+</script>
+
+</body>
+</html>
