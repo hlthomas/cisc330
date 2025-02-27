@@ -1,0 +1,15 @@
+﻿CISC 3300 F24 
+In class assignment 13 
+1. variable names start with a $ in php 
+
+
+2. Associative behave a bit like objects in JS or dictionaries in python 
+
+
+3. A template literal in PHP would be “welcome $name, or “welcome($name); 
+
+
+4. php is loosely typed - we don’t set types for variables, they are assigned at runtime
+
+
+ 5. The require statement takes all the text/code/markup that exists in the specified file and copies it into the file that uses the include statement.
