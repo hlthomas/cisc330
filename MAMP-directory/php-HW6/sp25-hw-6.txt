@@ -1,0 +1,21 @@
+﻿CISC 3300 S25 
+Homework 6 
+1. Define hoisting and closures in JS. 
+Hoisting: variables and functions within each execution context are created before they are executed
+Closures: The ability of a function to remember the variables and functions that are declared in its outer scope.
+
+
+2. What is PHP? What do server-side languages do in web development? 3. What are some examples of how the PHP and JavaScript programming languages are alike and how they differ? 
+Php is an interpreted programming language used to build webpages. Both use object-oriented principles. JS uses a prototype-based system and PHP uses a OOP system.
+
+
+
+
+4. Why pick PHP over another server side scripting language like Python or Node?
+Because its easier to learn.
+
+
+
+
+5. Compare and contrast echo and var_dump. 
+Echo outputs one or more expression. Var_dump dumps information about one or more variables.The information holds type and value of the variable(s) - can print out non primitive values.
