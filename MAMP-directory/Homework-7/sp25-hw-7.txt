@@ -1,0 +1,61 @@
+﻿CISC 3300 S25 
+Homework 7 
+1. What is a class? What is an object? What is OOP? 
+A Class is a template for creating objects. An object is an instance of a class. In PHP, Object-Oriented Programming is a programming style where you structure your application around objects.
+
+
+2. Why use an abstract class in OOP? 
+It’s a class that is not meant to be instantiated; it is only extended by children classes. Abstract classes are generally used when a class provides some high-level functionality but leaves out specific details to be implemented by derived classes. Abstract classes allow the parent to create a default for methods and a template for templates. 
+
+
+
+
+3. What are superglobals in PHP, what are some examples of data they provide? 
+Several predefined variables in PHP are "superglobals", which means they are available in all scopes throughout a script. The $_SERVER superglobal array is an example of one of the superglobal arrays that the PHP interpreter creates each time a page is requested.$_SERVER["REQUEST_URI"] will give us our URI: localhosts:3000/posts -> /posts.
+
+
+
+
+4. What are the two steps to setting up and using a class via namespaces?
+* step 1: Define a namespace it in the class to be used. 
+* step 2: In the place we want to use the class we have two options
+   * typing out the full namespace everytime we want to use that class
+      * $postsModel = new app\models\Post();
+      * Or import the class into the current namespace with use keyword
+         * use app\models\Post;
+         * $postsModel = Post();
+
+
+
+
+
+
+
+
+5. What is MVC? Detail the different parts. 
+MVC is an architectural/design pattern that separates an application into three main logical components: Model, View, and Controller.
+
+
+The Model handles the application's data and business logic, managing the data's state and performing operations like creating, reading, updating, or deleting on the data.
+
+
+The View is responsible for displaying the data from the Model to the user and providing the user interface elements. It listens for changes in the Model and updates the user interface accordingly.
+
+
+The Controller acts as an intermediary between the Model and the View, handling user inputs, processing them, and updating the Model or View based on the input or actions. It controls the flow of data and logic in the application.
+
+
+
+
+6. If I had a resource called users in my application that was designed with RESTFUL URI design, what would the URI and HTTP verbs be for: 
+a. getting all users 
+/user, GET
+b. getting one users
+/user/{id}, GET
+c. saving a user 
+/users, POST
+d. editing a user 
+/users/{id}, PUT or PATCH
+e. deleting a user
+/users/{id}
+DELETE
